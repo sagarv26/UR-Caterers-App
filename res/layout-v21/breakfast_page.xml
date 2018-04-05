@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/main_content" app:background="0x106000b" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@+id/appbar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x15e01">
+        <android.support.design.widget.CollapsingToolbarLayout app:id="@+id/collapsing_toolbar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_scrollFlags="3" app:expandedTitleMarginStart="48dp" app:expandedTitleMarginEnd="64dp" app:expandedTitleTextAppearance="0x106000d" app:contentScrim="@color/colorDarkiesBule">
+            <TextView app:textColor="@color/colorBlack" app:background="@color/colorWhite" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true" app:textAlignment="center" app:layout_alignParentStart="true" app:backgroundTint="@color/colorDarkiesBule" />
+            <RelativeLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <ImageView app:id="@+id/backdrop" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentStart="true" app:layout_collapseMode="2" />
+            </RelativeLayout>
+            <android.support.v7.widget.Toolbar app:id="@+id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010071" app:layout_collapseMode="1" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/recycler_content" />
+</android.support.design.widget.CoordinatorLayout>

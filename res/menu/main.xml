@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@+id/action_settings" app:orderInCategory="100" app:title="@string/action_settings" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_favorite_white" app:id="@+id/action_search" app:orderInCategory="100" app:title="Search" app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/nothing_in_cart" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.Space android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9601" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Large" android:textSize="18sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="  Your Cart is empty!  " />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1901" android:text="  Add items to it now  : )" />
+    <android.support.v4.widget.Space android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9601" />
+</LinearLayout>

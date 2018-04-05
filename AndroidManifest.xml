@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.sagar.urcatters" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ur_logo" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/app_name" android:name="com.example.sagar.urcatters.Activites.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:name="com.example.sagar.urcatters.SubClass.Breakfast_Page">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:name="com.example.sagar.urcatters.SubClass.lunch_Page">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:name="com.example.sagar.urcatters.SubClass.Show_Details">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:name="com.example.sagar.urcatters.SubClass.Show_Details_Breakfast">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:name="com.example.sagar.urcatters.SubClass.Add_Profile">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:name="com.example.sagar.urcatters.SubClass.WebActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:name="com.example.sagar.urcatters.SubClass.Cart_Page">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:name="com.example.sagar.urcatters.Cart.Breakfast_Cart">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:name="com.example.sagar.urcatters.Cart.Lunch_Cart">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:name="com.example.sagar.urcatters.Cart.Dinner_Cart">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:name="com.example.sagar.urcatters.Cart.Chats_Cart">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:name="com.example.sagar.urcatters.Cart.Juice_Cart">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:name="com.example.sagar.urcatters.SubClass.Fav_Page">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+        <activity android:name="com.example.sagar.urcatters.Cart.All_Cart_Content">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Activites.MainActivity" />
+        </activity>
+    </application>
+</manifest>

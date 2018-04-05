@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme_AppBarOverlay" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010071" app:popupTheme="@style/AppTheme_PopupOverlay" />
+        <android.support.design.widget.TabLayout app:id="@+id/tabs" app:layout_width="match_parent" app:layout_height="wrap_content" app:tabMode="1" app:tabGravity="0" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager app:id="@+id/fragmentViewPager" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/fav_button" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="16dp" app:tint="@color/colorBlack" app:srcCompat="@drawable/ic_shopping_cart_black_24dp" app:backgroundTint="@color/colorWhite" />
+    <include layout="@layout/content_main" />
+</android.support.design.widget.CoordinatorLayout>

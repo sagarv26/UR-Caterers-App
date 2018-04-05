@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:paddingLeft="@dimen/activity_horizontal_margin" app:paddingTop="@dimen/activity_vertical_margin" app:paddingRight="@dimen/activity_horizontal_margin" app:paddingBottom="@dimen/activity_vertical_margin" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="25sp" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:text=" Your Favorites List:" app:layout_alignParentTop="true" />
+        <TableRow app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/hr" app:background="#444" app:layout_width="UNKNOWN_DATA_0x14501" app:layout_height="UNKNOWN_DATA_0x20000031" />
+        <android.support.v4.widget.Space app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1401" />
+        <android.support.v7.widget.RecyclerView app:id="@+id/favRecyclerView" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+        <android.support.v4.widget.Space app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" />
+    </LinearLayout>
+</RelativeLayout>

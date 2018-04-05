@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/frameLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/orderImage_CustomList" android:layout_width="UNKNOWN_DATA_0xa001" android:layout_height="UNKNOWN_DATA_0x7d01" android:scaleType="fitXY" />
+        <TextView android:textAppearance="@*android:style/TextAppearance.Large" android:textSize="15sp" android:id="@+id/orderName_CustomList" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x1" android:layout_below="@+id/frameLayout2" android:layout_alignParentLeft="true" />
+    </FrameLayout>
+</RelativeLayout>

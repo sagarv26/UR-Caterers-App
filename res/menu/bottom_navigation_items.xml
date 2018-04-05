@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_send" android:id="@+id/actionOnClick1" android:title="Whats Up" />
+    <item android:icon="@drawable/ic_menu_call" android:id="@+id/actionOnClick2" android:title="Call" />
+    <item android:icon="@drawable/ic_menu_mail" android:id="@+id/actionOnClick3" android:title="Message" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:theme="@style/ThemeOverlay.AppCompat.Dark" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="@color/colorDarkiesBule" app:paddingLeft="12dp" app:paddingTop="12dp" app:paddingRight="12dp" app:paddingBottom="12dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f080086">
+    <ImageView app:id="@+id/imageView" app:paddingTop="5dp" app:layout_width="UNKNOWN_DATA_0x5501" app:layout_height="UNKNOWN_DATA_0x6401" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:srcCompat="@mipmap/ur_logo" />
+    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textSize="16sp" app:textColor="@color/colorWhite" app:id="@+id/textView3" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="UNKNOWN_DATA_0x1901" app:text="UR Caters" app:layout_alignLeft="@+id/textView" app:layout_centerVertical="true" />
+    <TextView app:textSize="14sp" app:textColor="@color/colorWhite" app:id="@+id/textView" app:layout_width="UNKNOWN_DATA_0xaf01" app:layout_height="wrap_content" app:text="urcreations.s@outlook.com" app:layout_below="@+id/textView3" app:layout_alignParentRight="true" />
+</RelativeLayout>

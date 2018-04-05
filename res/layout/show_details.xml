@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:weightSum="1.0">
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <ScrollView app:layout_width="match_parent" app:layout_height="match_parent">
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+                <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:id="@+id/optCount" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_weight="0.04" />
+                <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="25sp" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/detail_title" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_weight="0.06" />
+                <TableRow app:id="@+id/hr2" app:background="#444" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x20000031" app:layout_marginBottom="11dp" app:layout_alignLeft="@+id/orderImage_common" app:layout_alignParentBottom="true" app:layout_centerInParent="true" />
+                <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xaf01" app:layout_margin="10dp">
+                    <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/detail_image" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xaf01" app:scaleType="fitXY" app:layout_weight="2.75" app:srcCompat="@mipmap/ic_launcher" />
+                </android.support.v7.widget.CardView>
+                <android.support.v4.widget.Space app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0xf01" />
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+                    <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="16sp" app:id="@+id/menuOptionTag" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1401" app:text=" Menu : " app:layout_weight="0.02" />
+                    <TableRow app:id="@+id/hr5" app:background="#ffd9d6d6" app:paddingLeft="50dp" app:layout_width="UNKNOWN_DATA_0xc801" app:layout_height="UNKNOWN_DATA_0x40000031" app:layout_marginLeft="5dp" app:layout_marginTop="2dp" app:layout_marginBottom="10dp" app:layout_alignLeft="@+id/orderImage_common" app:layout_alignParentBottom="true" app:layout_centerInParent="true" />
+                    <RadioGroup app:orientation="horizontal" app:id="@+id/radio_group_1" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <RadioButton app:id="@+id/bf_radio" app:layout_width="UNKNOWN_DATA_0x1401" app:layout_height="wrap_content" app:text="Breakfast" app:layout_weight="0.25" />
+                        <RadioButton app:id="@+id/lunch_radio" app:layout_width="UNKNOWN_DATA_0xf01" app:layout_height="wrap_content" app:text="Lunch" app:layout_weight="0.25" />
+                        <RadioButton app:id="@+id/dinner_radio" app:layout_width="UNKNOWN_DATA_0xf01" app:layout_height="wrap_content" app:text="Dinner" app:layout_weight="0.25" />
+                        <RadioButton app:id="@+id/chats_radio" app:layout_width="UNKNOWN_DATA_0xf01" app:layout_height="wrap_content" app:text="Chats" app:layout_weight="0.25" />
+                    </RadioGroup>
+                    <Space app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xa01" />
+                    <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="16sp" app:id="@+id/optionTag" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1401" app:text=" Varieties :" app:layout_weight="0.02" />
+                    <TableRow app:id="@+id/hr6" app:background="#ffd9d6d6" app:paddingLeft="50dp" app:layout_width="UNKNOWN_DATA_0xc801" app:layout_height="UNKNOWN_DATA_0x40000031" app:layout_marginLeft="5dp" app:layout_marginTop="3dp" app:layout_marginBottom="10dp" app:layout_alignLeft="@+id/orderImage_common" app:layout_alignParentBottom="true" app:layout_centerInParent="true" />
+                    <Spinner app:id="@+id/option_spinner" app:layout_width="UNKNOWN_DATA_0xfa01" app:layout_height="UNKNOWN_DATA_0x1901" app:layout_weight="0.04" app:spinnerMode="dialog" />
+                    <Space app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xa01" />
+                    <Button app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="18sp" app:id="@+id/button_what_you_expect" app:background="@color/colorAccent" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2301" app:layout_marginLeft="10dp" app:layout_marginTop="5dp" app:layout_marginRight="10dp" app:layout_marginBottom="5dp" app:text="What you expect?" />
+                    <Space app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xa01" />
+                    <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="16sp" app:id="@+id/descriptionTag" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1401" app:layout_marginLeft="5dp" app:text="Description: " app:layout_weight="0.02" />
+                    <TableRow app:id="@+id/hr7" app:background="#ffd9d6d6" app:paddingLeft="50dp" app:layout_width="UNKNOWN_DATA_0xc801" app:layout_height="UNKNOWN_DATA_0x40000031" app:layout_marginLeft="5dp" app:layout_marginTop="2dp" app:layout_marginBottom="10dp" app:layout_alignLeft="@+id/orderImage_common" app:layout_alignParentBottom="true" app:layout_centerInParent="true" />
+                    <ScrollView app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4b01">
+                        <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="12sp" app:id="@+id/about" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="5dp" app:text="  Dosa is a type of pancake from the Indian subcontinent, made from a fermented batter. It is somewhat similar to a crepe in appearance. Its main ingredients are rice and black gram. " app:layout_weight="0.19" />
+                    </ScrollView>
+                    <Space app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1401" />
+                    <Space app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xa01" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true">
+            <Button app:textSize="14sp" app:textColor="@color/colorWhite" app:id="@+id/fav_button" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:layout_marginTop="5dp" app:layout_marginBottom="5dp" app:text="Add to Favorite" app:layout_weight="0.5" />
+            <Button app:textSize="14sp" app:textColor="@color/colorWhite" app:id="@+id/add_button" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginTop="5dp" app:layout_marginRight="5dp" app:layout_marginBottom="5dp" app:text="Add To Cart" app:layout_weight="0.5" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

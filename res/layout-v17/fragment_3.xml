@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/fragment_3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="@*android:style/TextAppearance.Large" android:textSize="14sp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/aboutUsDes" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x12c01" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:text="@string/about1" />
+            <Space android:background="@color/colorDarkiesBule" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xf01" android:layout_below="@+id/aboutUsDes" />
+            <TextView android:textAppearance="@*android:style/TextAppearance.Large" android:textSize="14sp" android:id="@+id/ceoTAG" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:text="CEO :" android:layout_below="@+id/aboutUsDes" />
+            <android.support.v7.widget.CardView android:id="@+id/cardViewCEO" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6e01" android:layout_margin="10dp" android:layout_below="@+id/ceoTAG">
+                <RelativeLayout android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView app:id="@+id/profile_image" app:layout_width="UNKNOWN_DATA_0x6e01" app:layout_height="UNKNOWN_DATA_0x4b01" app:src="@drawable/panipuri" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:layout_alignParentStart="true" />
+                    <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="15sp" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="UNKNOWN_DATA_0x1e01" app:text="Seetharam Karanth " app:layout_toRightOf="@+id/profile_image" app:layout_alignTop="@+id/profile_image" app:layout_toEndOf="@+id/profile_image" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="14sp" app:id="@+id/mngrTAG" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1901" app:layout_marginLeft="10dp" app:layout_marginTop="10dp" app:layout_marginRight="10dp" app:layout_marginBottom="10dp" app:text="Manager" app:layout_below="@+id/cardViewCEO" />
+            <android.support.v7.widget.CardView app:id="@+id/cardviewMngr" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x6e01" app:layout_margin="10dp" app:layout_below="@+id/mngrTAG">
+                <RelativeLayout app:paddingLeft="5dp" app:paddingTop="5dp" app:paddingRight="5dp" app:paddingBottom="5dp" app:layout_width="match_parent" app:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView app:id="@+id/circleImageView" app:layout_width="UNKNOWN_DATA_0x6e01" app:layout_height="UNKNOWN_DATA_0x4b01" app:src="@drawable/panipuri" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:layout_alignParentStart="true" />
+                    <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="15sp" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="UNKNOWN_DATA_0x1e01" app:text="Uttej Karanth " app:layout_toRightOf="@+id/circleImageView" app:layout_alignTop="@+id/circleImageView" app:layout_toEndOf="@+id/circleImageView" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="14sp" app:id="@+id/devTag" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1901" app:layout_marginLeft="10dp" app:layout_marginTop="5dp" app:layout_marginRight="10dp" app:text="Designed and Developed by :" app:layout_below="@+id/cardviewMngr" />
+            <android.support.v7.widget.CardView app:id="@+id/cardViewDEV" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x6e01" app:layout_margin="10dp" app:layout_below="@+id/devTag">
+                <RelativeLayout app:paddingLeft="5dp" app:paddingTop="5dp" app:paddingRight="5dp" app:paddingBottom="5dp" app:layout_width="match_parent" app:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView app:id="@+id/circleImageView2" app:layout_width="UNKNOWN_DATA_0x6e01" app:layout_height="UNKNOWN_DATA_0x4b01" app:src="@drawable/panipuri" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:layout_alignParentStart="true" />
+                    <TextView app:textAppearance="@*app:style/TextAppearance.Large" app:textSize="16sp" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="UNKNOWN_DATA_0x1e01" app:text="Sagar Hande " app:layout_toRightOf="@+id/circleImageView2" app:layout_alignTop="@+id/circleImageView2" app:layout_toEndOf="@+id/circleImageView2" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

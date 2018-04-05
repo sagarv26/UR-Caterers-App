@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <android.support.v7.widget.RecyclerView app:id="@+id/lunch_recycler_view" app:scrollbars="vertical" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" />
+</RelativeLayout>

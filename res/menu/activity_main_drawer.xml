@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_person_black" android:id="@+id/nav_profile" android:title="Your Profile" />
+        <item android:icon="@drawable/ic_free_breakfast" android:id="@+id/nav_breakfast" android:title="Break" />
+        <item android:icon="@drawable/ic_lunch" android:id="@+id/nav_lunch" android:title="Lunch and Dinner" />
+        <item android:icon="@drawable/ic_snacks" android:id="@+id/nav_snacks" android:title="Snacks" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_cart" android:id="@+id/nav_cart" android:title="Your Cart" />
+        <item android:icon="@drawable/ic_favorite_black" android:id="@+id/nav_fav" android:title="Favorites" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <item android:icon="@drawable/ic_fb" android:id="@+id/nav_fb" android:title="Connect Us With Facebook " />
+                <item android:icon="@drawable/ic_contact_phone_black" android:id="@+id/nav_addContact" android:title="Add Our Number" />
+                <item android:icon="@drawable/ic_menu_manage" android:id="@+id/nav_manage" android:title="Tools" />
+                <item android:icon="@drawable/ic_menu_share" android:id="@+id/nav_share" android:title="Share" />
+                <item android:icon="@drawable/ic_menu_send" android:id="@+id/nav_send" android:title="Send" />
+            </menu> />
+    </group>
+</menu>
