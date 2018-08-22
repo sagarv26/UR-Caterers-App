@@ -1,0 +1,81 @@
+<title>fragments</title>
+<link rel="stylesheet" href="../../Style/myStyleHTML.css"/>
+</head>
+<body>
+<b><u>Fragments in Java:-</u></b><br>
+It is recommended to create fragments in Java rather than in XML, since we can change the UI in runtime if we are creating the fragments in Java.<br><br>
+<hr><hr><b>Fragment Manager:</b><br/>
+A FragmentManager manages Fragments in Android, specifically it handles transactions between fragments. <br>
+A transaction is a way to add, replace, or remove fragments.<br><br>
+Every Activity has its own Fragment Manager accessible through <i id="font">getFragmentManager()</i><br>
+It maintains references to all fragments inside the Activity.<br>
+Use <i id="font" >findFragmentById()</i> or <i id="font">findFragmentByTag()</i> to get reference to a particular Fragment.<br><br>
+<hr><hr><b>Fragment Transactions:</b><br/>
+It is responsible for managing the changes to the UI in terms of adding,removing and replacing fragments.<br>
+<hr><hr><b><u>Steps for managing fragment transaction:</u></b><br>
+<ol>
+<li>Begin a Transaction</li>
+<li>Add, remove and replace the desired fragments</li>
+<li>Commit the transaction</li>
+</ol>
+<hr><hr>
+<b><u>Steps for creating Fragments in JAVA:</u></b><br>
+1. Create a  class that extends fragment.<br>
+<div>
+<pre>
+<code>
+public class MyFragment extends Fragment
+</code>
+</pre>
+</div><hr>
+2. Create a separate layout file or java objects that contain the appearance<br>
+<div>
+<pre>
+<code>
+&lt;FrameLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;
+    tools:context=&quot;demo.arjun.com.fragmentapp.MyFragment&quot;
+    android:id=&quot;@+id/cdcd12121&quot;&gt;
+
+    &lt;!-- TODO: Update blank fragment layout --&gt;
+    &lt;TextView
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;match_parent&quot;
+        android:text=&quot;@string/hello_blank_fragment&quot; /&gt;
+
+&lt;/FrameLayout&gt;
+</code>
+</pre>
+</div><hr>
+3. Use the onCreateView method to link its appearance.<br>
+<div>
+<pre>
+<code>
+public class MyFragment extends Fragment{
+public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_my, container, false);
+    }
+}
+</code>
+</pre>
+</div><hr>
+4. Attach the fragment inside the Activity through Java<br>
+<div>
+<pre>
+<code>
+//Create an object of your fragment here it is frag
+MyFragment frag = new MyFragment();
+FragmentManager manager=getFragmentManager();
+FragmentTransaction transaction=manager.beginTransaction();
+transaction.add(R.id.my_fragmentlayout_name,frag,"frag_tag");
+transaction.commit();
+</code>
+</pre>
+</div>
+<br><hr><br><br><br>
+</body>
+</html>
